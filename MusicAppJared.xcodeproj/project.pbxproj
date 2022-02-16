@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		408FC52527BD8EF400EB886E /* MusicAppJared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAppJared.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408FC52527BD8EF400EB886E /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredApp.swift; sourceTree = "<group>"; };
 		408FC52A27BD8EF400EB886E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		408FC52C27BD8EF400EB886E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		408FC52627BD8EF400EB886E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				408FC52527BD8EF400EB886E /* MusicAppJared.app */,
+				408FC52527BD8EF400EB886E /* MusicApp.app */,
 				408FC53527BD8EF400EB886E /* MusicAppJaredTests.xctest */,
 				408FC53F27BD8EF500EB886E /* MusicAppJaredUITests.xctest */,
 			);
@@ -147,7 +147,7 @@
 			);
 			name = MusicAppJared;
 			productName = MusicAppJared;
-			productReference = 408FC52527BD8EF400EB886E /* MusicAppJared.app */;
+			productReference = 408FC52527BD8EF400EB886E /* MusicApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		408FC53427BD8EF400EB886E /* MusicAppJaredTests */ = {
@@ -437,7 +437,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.kunruh.MusicAppJared;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MusicApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,7 +466,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.kunruh.MusicAppJared;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MusicApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
