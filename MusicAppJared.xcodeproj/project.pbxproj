@@ -14,6 +14,7 @@
 		408FC53A27BD8EF400EB886E /* MusicAppJaredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC53927BD8EF400EB886E /* MusicAppJaredTests.swift */; };
 		408FC54427BD8EF500EB886E /* MusicAppJaredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC54327BD8EF500EB886E /* MusicAppJaredUITests.swift */; };
 		408FC54627BD8EF500EB886E /* MusicAppJaredUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC54527BD8EF500EB886E /* MusicAppJaredUITestsLaunchTests.swift */; };
+		408FC55327BD999900EB886E /* BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC55227BD999900EB886E /* BlurEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		408FC53F27BD8EF500EB886E /* MusicAppJaredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppJaredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC54327BD8EF500EB886E /* MusicAppJaredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredUITests.swift; sourceTree = "<group>"; };
 		408FC54527BD8EF500EB886E /* MusicAppJaredUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		408FC55227BD999900EB886E /* BlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */,
 				408FC52A27BD8EF400EB886E /* ContentView.swift */,
+				408FC55227BD999900EB886E /* BlurEffect.swift */,
 				408FC52C27BD8EF400EB886E /* Assets.xcassets */,
 				408FC52E27BD8EF400EB886E /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408FC55327BD999900EB886E /* BlurEffect.swift in Sources */,
 				408FC52B27BD8EF400EB886E /* ContentView.swift in Sources */,
 				408FC52927BD8EF400EB886E /* MusicAppJaredApp.swift in Sources */,
 			);
