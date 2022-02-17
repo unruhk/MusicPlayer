@@ -15,6 +15,7 @@
 		408FC54427BD8EF500EB886E /* MusicAppJaredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC54327BD8EF500EB886E /* MusicAppJaredUITests.swift */; };
 		408FC54627BD8EF500EB886E /* MusicAppJaredUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC54527BD8EF500EB886E /* MusicAppJaredUITestsLaunchTests.swift */; };
 		408FC55327BD999900EB886E /* BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC55227BD999900EB886E /* BlurEffect.swift */; };
+		40B0CE8F27BEF6D2005A8878 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0CE8E27BEF6D2005A8878 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		408FC52527BD8EF400EB886E /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408FC52527BD8EF400EB886E /* MusicAppJared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAppJared.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredApp.swift; sourceTree = "<group>"; };
 		408FC52A27BD8EF400EB886E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		408FC52C27BD8EF400EB886E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		408FC54327BD8EF500EB886E /* MusicAppJaredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredUITests.swift; sourceTree = "<group>"; };
 		408FC54527BD8EF500EB886E /* MusicAppJaredUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		408FC55227BD999900EB886E /* BlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffect.swift; sourceTree = "<group>"; };
+		40B0CE8E27BEF6D2005A8878 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,7 @@
 		408FC52627BD8EF400EB886E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				408FC52527BD8EF400EB886E /* MusicApp.app */,
+				408FC52527BD8EF400EB886E /* MusicAppJared.app */,
 				408FC53527BD8EF400EB886E /* MusicAppJaredTests.xctest */,
 				408FC53F27BD8EF500EB886E /* MusicAppJaredUITests.xctest */,
 			);
@@ -98,6 +100,7 @@
 			children = (
 				408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */,
 				408FC52A27BD8EF400EB886E /* ContentView.swift */,
+				40B0CE8E27BEF6D2005A8878 /* PlayerView.swift */,
 				408FC55227BD999900EB886E /* BlurEffect.swift */,
 				408FC52C27BD8EF400EB886E /* Assets.xcassets */,
 				408FC52E27BD8EF400EB886E /* Preview Content */,
@@ -147,7 +150,7 @@
 			);
 			name = MusicAppJared;
 			productName = MusicAppJared;
-			productReference = 408FC52527BD8EF400EB886E /* MusicApp.app */;
+			productReference = 408FC52527BD8EF400EB886E /* MusicAppJared.app */;
 			productType = "com.apple.product-type.application";
 		};
 		408FC53427BD8EF400EB886E /* MusicAppJaredTests */ = {
@@ -263,6 +266,7 @@
 				408FC55327BD999900EB886E /* BlurEffect.swift in Sources */,
 				408FC52B27BD8EF400EB886E /* ContentView.swift in Sources */,
 				408FC52927BD8EF400EB886E /* MusicAppJaredApp.swift in Sources */,
+				40B0CE8F27BEF6D2005A8878 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +441,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.kunruh.MusicAppJared;
-				PRODUCT_NAME = MusicApp;
+				PRODUCT_NAME = MusicAppJared;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,7 +470,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.kunruh.MusicAppJared;
-				PRODUCT_NAME = MusicApp;
+				PRODUCT_NAME = MusicAppJared;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
