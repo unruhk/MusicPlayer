@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct Album : Hashable {
     var id = UUID()
@@ -21,36 +22,16 @@ struct Song : Hashable {
 }
 
 struct ContentView: View {
-    
-    var albums = [Album(name: "Bridge 1", image: "1",
-                       songs: [Song(name: "One", time: "1:01"),
-                               Song(name: "Two", time: "2:22"),
-                               Song(name: "Tree", time: "3:30")]),
-                 Album(name: "Apple 2", image: "2",
-                       songs: [Song(name: "Four", time: "1:01"),
-                               Song(name: "Five", time: "2:22"),
-                               Song(name: "Six", time: "3:30")]),
-                 Album(name: "City 3", image: "3",
-                       songs: [Song(name: "Seven", time: "1:01"),
-                               Song(name: "Eight", time: "2:22"),
-                               Song(name: "Nine", time: "3:30")]),
-                 Album(name: "BMW 4", image: "4",
-                       songs: [Song(name: "Ten", time: "1:01"),
-                               Song(name: "Eleven", time: "2:22"),
-                               Song(name: "Twelf", time: "3:30")]),
-                 Album(name: "Nike 5", image: "5",
-                       songs: [Song(name: "Thirteen", time: "1:01"),
-                               Song(name: "Fourteen", time: "2:22"),
-                               Song(name: "Fiveteen", time: "3:30")])]
-    
+
     @State private var currentAlbum : Album?
+    @ObservedObject var data : OurData
     
     var body: some View {
         NavigationView {
             ScrollView {
                 ScrollView(.horizontal, showsIndicators: false, content: {
                     LazyHStack {
-                        ForEach(self.albums, id: \.self, content: {
+                        ForEach(self.data.albums, id: \.self, content: {
                             album in
                             AlbumArt(album: album, isWithText: true).onTapGesture {
                                 self.currentAlbum = album
@@ -59,15 +40,20 @@ struct ContentView: View {
                     }
                 })
                 LazyVStack {
-                    ForEach((self.currentAlbum?.songs ?? self.albums.first?.songs) ??
-                            [Song(name: "One", time: "1:01"),
-                                    Song(name: "Two", time: "2:22"),
-                                    Song(name: "Tree", time: "3:30")],
-                            id: \.self,
-                            content: {
-                                song in
-                        SongCell(album: currentAlbum ?? albums.first!, song: song)
-                    })
+                    if self.data.albums.first == nil {
+                        EmptyView()
+                    } else {
+                        ForEach((self.currentAlbum?.songs ?? self.data.albums.first?.songs) ??
+                                [Song(name: "One", time: "1:01"),
+                                        Song(name: "Two", time: "2:22"),
+                                        Song(name: "Tree", time: "3:30")],
+                                id: \.self,
+                                content: {
+                                    song in
+                            SongCell(album: currentAlbum ?? self.data.albums.first!, song: song)
+                        })
+                    }
+                    
                 }
             }.navigationTitle("Discover")
         }
@@ -112,8 +98,4 @@ struct SongCell : View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
