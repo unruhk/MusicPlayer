@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct MusicAppJaredApp: App {
+    let data = OurData()
+    
+    init() {
+        FirebaseApp.configure()
+        data.loadAlbums()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(data: data)
         }
     }
 }
