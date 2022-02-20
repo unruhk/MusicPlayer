@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		403A05CA27BFEE3F0031AFF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 403A05C927BFEE3F0031AFF3 /* GoogleService-Info.plist */; };
+		4007C59E27C2E2A30009BF58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4007C59D27C2E2A30009BF58 /* GoogleService-Info.plist */; };
 		403A05CD27BFF2700031AFF3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 403A05CC27BFF2700031AFF3 /* FirebaseFirestore */; };
 		403A05CF27BFF2700031AFF3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 403A05CE27BFF2700031AFF3 /* FirebaseStorage */; };
 		408FC52927BD8EF400EB886E /* MusicAppJaredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		403A05C927BFEE3F0031AFF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4007C59D27C2E2A30009BF58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		408FC52527BD8EF400EB886E /* MusicAppJared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAppJared.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredApp.swift; sourceTree = "<group>"; };
 		408FC52A27BD8EF400EB886E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,7 +106,6 @@
 		408FC52727BD8EF400EB886E /* MusicAppJared */ = {
 			isa = PBXGroup;
 			children = (
-				403A05C927BFEE3F0031AFF3 /* GoogleService-Info.plist */,
 				408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */,
 				408FC52A27BD8EF400EB886E /* ContentView.swift */,
 				40D81F8727C1757700E5E7D5 /* Data.swift */,
@@ -255,8 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				408FC53027BD8EF400EB886E /* Preview Assets.xcassets in Resources */,
+				4007C59E27C2E2A30009BF58 /* GoogleService-Info.plist in Resources */,
 				408FC52D27BD8EF400EB886E /* Assets.xcassets in Resources */,
-				403A05CA27BFEE3F0031AFF3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
