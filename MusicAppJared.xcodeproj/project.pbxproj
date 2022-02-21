@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4007C59E27C2E2A30009BF58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4007C59D27C2E2A30009BF58 /* GoogleService-Info.plist */; };
+		4006E9D727C2F01B00DECDA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4006E9D627C2F01B00DECDA3 /* GoogleService-Info.plist */; };
 		403A05CD27BFF2700031AFF3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 403A05CC27BFF2700031AFF3 /* FirebaseFirestore */; };
 		403A05CF27BFF2700031AFF3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 403A05CE27BFF2700031AFF3 /* FirebaseStorage */; };
 		408FC52927BD8EF400EB886E /* MusicAppJaredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */; };
@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4006E9D527C2EB2200DECDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4006E9D627C2F01B00DECDA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4007C59D27C2E2A30009BF58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		408FC52527BD8EF400EB886E /* MusicAppJared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAppJared.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppJaredApp.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4006E9D427C2E78D00DECDA3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				4007C59D27C2E2A30009BF58 /* GoogleService-Info.plist */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		408FC51C27BD8EF400EB886E = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 				408FC53827BD8EF400EB886E /* MusicAppJaredTests */,
 				408FC54227BD8EF500EB886E /* MusicAppJaredUITests */,
 				408FC52627BD8EF400EB886E /* Products */,
+				4006E9D427C2E78D00DECDA3 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,11 +117,13 @@
 		408FC52727BD8EF400EB886E /* MusicAppJared */ = {
 			isa = PBXGroup;
 			children = (
+				4006E9D527C2EB2200DECDA3 /* Info.plist */,
 				408FC52827BD8EF400EB886E /* MusicAppJaredApp.swift */,
 				408FC52A27BD8EF400EB886E /* ContentView.swift */,
 				40D81F8727C1757700E5E7D5 /* Data.swift */,
 				40B0CE8E27BEF6D2005A8878 /* PlayerView.swift */,
 				408FC55227BD999900EB886E /* BlurEffect.swift */,
+				4006E9D627C2F01B00DECDA3 /* GoogleService-Info.plist */,
 				408FC52C27BD8EF400EB886E /* Assets.xcassets */,
 				408FC52E27BD8EF400EB886E /* Preview Content */,
 			);
@@ -254,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				408FC53027BD8EF400EB886E /* Preview Assets.xcassets in Resources */,
-				4007C59E27C2E2A30009BF58 /* GoogleService-Info.plist in Resources */,
 				408FC52D27BD8EF400EB886E /* Assets.xcassets in Resources */,
+				4006E9D727C2F01B00DECDA3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +461,7 @@
 				DEVELOPMENT_TEAM = V8KCB7ZY67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicAppJared/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,6 +491,7 @@
 				DEVELOPMENT_TEAM = V8KCB7ZY67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicAppJared/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
